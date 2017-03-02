@@ -36,8 +36,8 @@ Before you compile SysRT, you have to download systemc2.3.1 and compile it.
 
 ## 4. BUILDING SYSRT LIBRARY 
  To build SysRT library, go to the path where the package is downloaded.
- make clean
- make
+    make clean
+    make
 
 ## 5 RUNNING AN EXAMPLE 
 Every directory under one of the "examples" directories contains a
