@@ -25,7 +25,7 @@ DSE. SysRT contains different types of application models, an RTOS kernel model 
 This software has been tested under Linux, MacOSX and Windows. Supported (tested)
 compilers are:
 
-	- g++ (Ubuntu 4.9.2-10ubuntu13) 4.9.2   
+- g++ (Ubuntu 4.9.2-10ubuntu13) 4.9.2
 
 We assume the user has the compiler already installed on his machine.
 
@@ -36,8 +36,8 @@ Before you compile SysRT, you have to download systemc2.3.1 and compile it.
 
 ## 4. BUILDING SYSRT LIBRARY 
  To build SysRT library, go to the path where the package is downloaded.
-  % make clean
-  % make
+ make clean
+ make
 
 ## 5 RUNNING AN EXAMPLE 
 Every directory under one of the "examples" directories contains a
@@ -46,11 +46,11 @@ file.
 
 ### 5.1 Setup library path
     Before run an example:
-    % source <install_path>/setup.sh
+    source <install_path>/setup.sh
   
 ### 5.2 run examples locally:
-   % cd <example>
-   % make test
+    cd <example>
+    make test
 
 
 Jun Xiao
