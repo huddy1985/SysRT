@@ -1,0 +1,15 @@
+obj/regvar.d: src/regvar.cpp /home/jun/Downloads/SysRT/src/regvar.hpp \
+ /home/jun/Downloads/SysRT/src/randomvar.hpp \
+ /home/jun/Downloads/SysRT/src/baseexc.hpp \
+ /home/jun/Downloads/SysRT/src/factory.hpp \
+ /home/jun/Downloads/SysRT/src/strtoken.hpp
+
+/home/jun/Downloads/SysRT/src/regvar.hpp:
+
+/home/jun/Downloads/SysRT/src/randomvar.hpp:
+
+/home/jun/Downloads/SysRT/src/baseexc.hpp:
+
+/home/jun/Downloads/SysRT/src/factory.hpp:
+
+/home/jun/Downloads/SysRT/src/strtoken.hpp:
