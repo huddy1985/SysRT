@@ -35,7 +35,8 @@ SystemC version 2.3.1  http://www.accellera.org/.
 Before you compile SysRT, you have to download systemc2.3.1 and compile it.
 
 ## 4. BUILDING SYSRT LIBRARY 
- To build SysRT library, go to the path where the package is downloaded.
+To build SysRT library, go to the path where the package is downloaded.
+
     make clean
     make
 
