@@ -113,7 +113,7 @@ obj/waitinstr.d
 obj/%.o: src/%.cpp
 	@echo 'Building file: $<'
 	@echo 'Invoking: GCC C++ Compiler'
-	g++ -std=c++0x -I/usr/local/systemc-2.3.1/include -I"/home/jun/Downloads/SysRT/src" -O2 -g3 -Wall -c -fPIC -fmessage-length=0 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -o "$@" "$<"
+	g++ -std=c++0x -I/usr/local/systemc-2.3.1/include -I"/media/sda5/huddy1985/project/systemc/SysRT/src" -O2 -g3 -Wall -c -fPIC -fmessage-length=0 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -o "$@" "$<"
 	@echo 'Finished building: $<'
 	@echo ' '
 

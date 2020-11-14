@@ -1,6 +1,6 @@
 SHARED_LIB = lib/libsysrt.so
 STATIC_LIB = libsysrt.a
-SYSTEMC_DIR=/usr/local/systemc-2.3.1
+SYSTEMC_DIR=/media/sda5/huddy1985/project/systemc/systemc-2.3.1a
 CC = g++ 
 CFLAGS	= -g -O2 -Wall -fPIC -I. -I../src -I$(SYSTEMC_DIR)/include
-SYSRT = /home/jun/Downloads/SysRT
+SYSRT = /media/sda5/huddy1985/project/systemc/SysRT/
